@@ -1,0 +1,46 @@
+GET:
+
+https://user-cis445-jkratohvil.c9users.io/api/movies/Avatar
+
+DELETE:
+
+{"sku":"k0001"}
+
+https://user-cis445-jkratohvil.c9users.io/api/movies
+
+POST:
+
+{ 
+	"sku": "k0001", 
+
+	"shipping": { 
+		"weight": "13oz", 
+		"dimensions": { 
+			"width": "190mm", 
+			"height": "133mm" 
+		} 
+	}, 
+
+	"pricing": { 
+		"list": 12.00, 
+		"retail": 11.00, 
+		"savings": 1.00, 
+		"pct_savings": 8 
+	}, 
+
+	"details": { 
+		"title": "Avatar", 
+		"genre": [ "Action", "Science"], 
+		"length": "2h 42m", 
+		"rating": "7.9/10", 
+		"year": 2009, 
+		"aspect_ratio": "16:9" 
+	}}
+	
+https://user-cis445-jkratohvil.c9users.io/api/movies
+
+PUT:
+
+{"$set" : {"details.year" : 2020}}
+
+https://user-cis445-jkratohvil.c9users.io/api/movies/Avatar

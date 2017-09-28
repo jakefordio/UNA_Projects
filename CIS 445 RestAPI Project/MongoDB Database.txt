@@ -1,0 +1,579 @@
+db.movies.insert( 
+{ 
+	sku: "k0001", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 12.00, 
+		retail: 11.00, 
+		savings: 1.00, 
+		pct_savings: 8 
+	}, 
+
+	details: { 
+		title: "Avatar", 
+		genre: [ "Action", "Science"], 
+		length: "2h 42m", 
+		rating: "7.9/10", 
+		year: 2009, 
+		aspect_ratio: "16:9" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0002", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 8.00, 
+		retail: 7.00, 
+		savings: 1.00, 
+		pct_savings: 13 
+	}, 
+
+	details: { 
+		title: "Billy Madison", 
+		genre: [ "Action", "Science"], 
+		length: "2h 42m", 
+		rating: "7.9/10", 
+		year: 1995, 
+		aspect_ratio: "4:3" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0003", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 12.00, 
+		retail: 11.00, 
+		savings: 1.00, 
+		pct_savings: 8 
+	}, 
+
+	details: { 
+		title: "Saw", 
+		genre: [ "Horror"], 
+		length: "1h 43m", 
+		rating: "7.7/10", 
+		year: 2004, 
+		aspect_ratio: "16:9" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0004", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 20.00, 
+		retail: 19.00, 
+		savings: 1.00, 
+		pct_savings: 5
+	}, 
+
+	details: { 
+		title: "Star Wars Episode Vll", 
+		genre: [ "Action"], 
+		length: "2h 15m", 
+		rating: "8.3/10", 
+		year: 2015, 
+		aspect_ratio: "16:9" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0005", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 12.00, 
+		retail: 11.00, 
+		savings: 1.00, 
+		pct_savings: 8 
+	}, 
+
+	details: { 
+		title: "The Grudge", 
+		genre: [ "Horror"], 
+		length: "1h 36m", 
+		rating: "5.9/10", 
+		year: 2004, 
+		aspect_ratio: "16:9" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0006", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 8.00, 
+		retail: 7.00, 
+		savings: 1.00, 
+		pct_savings: 13 
+	}, 
+
+	details: { 
+		title: "Toy Story", 
+		genre: [ "Animation", "Comedy"], 
+		length: "1h 21m", 
+		rating: "8.3/10", 
+		year: 1995, 
+		aspect_ratio: "4:3" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0007", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 12.00, 
+		retail: 11.00, 
+		savings: 1.00, 
+		pct_savings: 8 
+	}, 
+
+	details: { 
+		title: "Radio", 
+		genre: [ "Drama", "Sports"], 
+		length: "1h 49m", 
+		rating: "6.9/10", 
+		year: 2003, 
+		aspect_ratio: "16:9" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0008", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 12.00, 
+		retail: 11.00, 
+		savings: 1.00, 
+		pct_savings: 8 
+	}, 
+
+	details: { 
+		title: "Twilight", 
+		genre: [ "Fantasy"], 
+		length: "1h 55m", 
+		rating: "5.5/10", 
+		year: 2008, 
+		aspect_ratio: "16:9" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0009", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 12.00, 
+		retail: 11.00, 
+		savings: 1.00, 
+		pct_savings: 8 
+	}, 
+
+	details: { 
+		title: "Insidious", 
+		genre: [ "Horror"], 
+		length: "1h 43m", 
+		rating: "6.8/10", 
+		year: 2010, 
+		aspect_ratio: "16:9" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0010", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 8.00, 
+		retail: 7.00, 
+		savings: 1.00, 
+		pct_savings: 13
+	}, 
+
+	details: { 
+		title: "Forrest Gump", 
+		genre: [ "Comedy", "Romance", "Drama"], 
+		length: "2h 25m", 
+		rating: "8.8/10", 
+		year: 1994, 
+		aspect_ratio: "4:3" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0011", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 12.00, 
+		retail: 11.00, 
+		savings: 1.00, 
+		pct_savings: 8 
+	}, 
+
+	details: { 
+		title: "Harry Potter and the Chamber of Secrets", 
+		genre: [ "Fantasy", "Drama"], 
+		length: "2h 54m", 
+		rating: "7.4/10", 
+		year: 2002, 
+		aspect_ratio: "16:9" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0012", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 8.00, 
+		retail: 7.00, 
+		savings: 1.00, 
+		pct_savings: 13
+	}, 
+
+	details: { 
+		title: "Beerfest", 
+		genre: [ "Comedy"], 
+		length: "1h 57m", 
+		rating: "6.3/10", 
+		year: 2006, 
+		aspect_ratio: "4:3" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0013", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 8.00, 
+		retail: 7.00, 
+		savings: 1.00, 
+		pct_savings: 13
+	}, 
+
+	details: { 
+		title: "A Clockwork Orange", 
+		genre: [ "Crime", "Science"], 
+		length: "2h 17m", 
+		rating: "8.4/10", 
+		year: 1971, 
+		aspect_ratio: "4:3" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0014", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 12.00, 
+		retail: 11.00, 
+		savings: 1.00, 
+		pct_savings: 8 
+	}, 
+
+	details: { 
+		title: "Homeward Bound: The Incredible Journey", 
+		genre: [ "Drama", "Adventure"], 
+		length: "1h 25m", 
+		rating: "6.9/10", 
+		year: 1993, 
+		aspect_ratio: "16:9" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0015", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 12.00, 
+		retail: 11.00, 
+		savings: 1.00, 
+		pct_savings: 8 
+	}, 
+
+	details: { 
+		title: "Ocean's Eleven", 
+		genre: [ "Crime", "Thriller"], 
+		length: "2h 7m", 
+		rating: "7.8/10", 
+		year: 2001, 
+		aspect_ratio: "16:9" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0016", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 12.00, 
+		retail: 11.00, 
+		savings: 1.00, 
+		pct_savings: 8 
+	}, 
+
+	details: { 
+		title: "Dude, Where's My Car?", 
+		genre: [ "Mystery", "Science"], 
+		length: "1h 23m", 
+		rating: "5.5/10", 
+		year: 2000, 
+		aspect_ratio: "16:9" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0017", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 12.00, 
+		retail: 11.00, 
+		savings: 1.00, 
+		pct_savings: 8 
+	}, 
+
+	details: { 
+		title: "Pineapple Express", 
+		genre: [ "Comedy"], 
+		length: "1h 57m", 
+		rating: "7.0/10", 
+		year: 2008, 
+		aspect_ratio: "16:9" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0018", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 12.00, 
+		retail: 11.00, 
+		savings: 1.00, 
+		pct_savings: 8 
+	}, 
+
+	details: { 
+		title: "High Tension", 
+		genre: [ "Slasher", "Thriller"], 
+		length: "1h 35m", 
+		rating: "6.8/10", 
+		year: 2003, 
+		aspect_ratio: "16:9" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0019", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 8.00, 
+		retail: 7.00, 
+		savings: 1.00, 
+		pct_savings: 13
+	}, 
+
+	details: { 
+		title: "Pulp Fiction", 
+		genre: [ "Crime", "Drama"], 
+		length: "2h 58m", 
+		rating: "8.9/10", 
+		year: 1994, 
+		aspect_ratio: "4:3" 
+	} 
+});
+
+db.movies.insert( 
+{ 
+	sku: "k0020", 
+
+	shipping: { 
+		weight: "13oz", 
+		dimensions: { 
+			width: "190mm", 
+			height: "133mm" 
+		} 
+	}, 
+
+	pricing: { 
+		list: 12.00, 
+		retail: 11.00, 
+		savings: 1.00, 
+		pct_savings: 8 
+	}, 
+
+	details: { 
+		title: "Lords of Dogtown", 
+		genre: [ "Sports", "Drama"], 
+		length: "1h 47m", 
+		rating: "7.1/10", 
+		year: 2005, 
+		aspect_ratio: "16:9" 
+	} 
+});
